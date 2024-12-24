@@ -1,1 +1,1 @@
-'def find_max(numbers):\n    return max(numbers)\n\nif __name__ == "__main__":\n    print("Максимум: ", find_max([1, 2, 3, 4, 5]))' 
+'def find_max(numbers):\n    return max(numbers)\n\nif __name__ == "__main__":\n    n = int(input("Введите количество чисел: "))\n    numbers = [int(input(f"Введите число {i+1}: ")) for i in range(n)]\n    print("Максимум: ", find_max(numbers))' 
